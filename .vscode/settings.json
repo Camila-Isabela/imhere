@@ -1,0 +1,5 @@
+{
+    "workbench.tree.indent": 16,
+    "explorer.compactFolders": false,
+    "gitlens.views.repositories.compact": true
+}
