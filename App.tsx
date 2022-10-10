@@ -14,7 +14,10 @@ export default function App() {
 				Segunda, 10/10/2022
 			</Text>
       <Text style={styles.eventInfo}>
-        Aplicação para gerenciar os participantes presentes em eventos , como palestras, workshops
+        Aplicação para gerenciar os participantes presentes em eventos , como palestras, workshops, debates...
+      </Text>
+      <Text style={styles.eventRed}>
+        (Em construção)
       </Text>
 		</View>
 	)
@@ -38,6 +41,12 @@ const styles = StyleSheet.create({
   },
   eventInfo: {
     color: '#f0cd06'
+  },
+  eventRed: {
+    color: '#cc2b2b',
+    marginTop: 12,
+    fontSize: 16,
+    fontWeight: 'bold'
   }
 })
 
