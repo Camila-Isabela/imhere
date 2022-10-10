@@ -6,13 +6,16 @@ export default function App() {
 			<Text
 				style={styles.eventName}
 			>
-				Nome do evento
+				Aula de PDM
 			</Text>
 			<Text
 				style={styles.eventDate}
 			>
 				Segunda, 10/10/2022
 			</Text>
+      <Text style={styles.eventInfo}>
+        Aplicação para gerenciar os participantes presentes em eventos , como palestras, workshops
+      </Text>
 		</View>
 	)
 }
@@ -32,6 +35,9 @@ const styles = StyleSheet.create({
   eventDate: {
     color: "#6B6B6B",
     fontSize: 16,
+  },
+  eventInfo: {
+    color: '#f0cd06'
   }
 })
 
