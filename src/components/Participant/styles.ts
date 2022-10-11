@@ -7,13 +7,13 @@ export const styles = StyleSheet.create({
         borderRadius: 5,
         flexDirection: 'row',
         alignItems: 'center',
-        marginBottom: 10
+        marginBottom: 10,
     },
     name: {
         flex: 1,
         fontSize: 16,
         color: '#FFF',
-        marginLeft: 16
+        marginLeft: 16,
     },
     buttonText: {
 		color: "#FFF",
@@ -26,5 +26,7 @@ export const styles = StyleSheet.create({
 		backgroundColor: "#E23C44",
 		alignItems: "center",
 		justifyContent: "center",
+        marginLeft: 12
 	},
+    
 })
