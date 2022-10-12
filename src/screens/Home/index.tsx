@@ -12,11 +12,12 @@ export function Home() {
 			Alert.alert('Participante existe', 'Já existe um participante na lista com esse nome.')
 		}
 
-		setParticipants(prevState => [...prevState, 'Ana'])
+		setParticipants(prevState => [...prevState, 'Adriana'])
 
 	}
 
 	function handleParticipantRemove(name: string) {
+
 		Alert.alert('Remover', `Remover o participante ${name}?`, [
 			{
 				text: 'Sim',
