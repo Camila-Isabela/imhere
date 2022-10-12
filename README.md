@@ -1,9 +1,5 @@
 <h1 align="center" style="font-size:3.4rem">I'm Here<h1>
 
-<h1 align="center">
-<img src="./assets/1.jpeg" width="100" height="100" style="align-items: center"><br>
-</h1>
-
 <h2 align="center">
 <a href="#about">About</a>  |
 <a href="#status">Status</a>  |
@@ -13,7 +9,7 @@
 </h2>
 
 <h2 id="about">🏷 About The Project</h2>
-<p>Application to manage attendees at events such as lectures and workshops</p>
+<p>Application to manage attendees at events such as lectures and workshops. The technologies used were Javascript, Typescript, React Native and the Expo development tool.</p>
 
 <h2 id="status"> 🚦Status </h2>
 <h4 align="center"> 
